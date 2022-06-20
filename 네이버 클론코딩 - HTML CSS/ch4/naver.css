@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+.center-align {
+    margin: 0 auto;
+    width: 1130px; 
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+}
+#logo-area{
+    position: absolute;
+    top:50%;
+    margin-top: -49px;
+}
+#logo-area  h1{
+    width: 222px;
+    height: 56px;
+    display: inline-block;
+    background: 
+    url(https://s.pstatic.net/static/www/img/uit/sp_main_dba1af.png) 0 -158px no-repeat;
+    background-size: 457px 434px;
+    position: relative;
+    top: -5px;
+
+    }
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#search-area{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 268px;
+    margin-top: -28px;
+}
+#search-area h2{
+    display: none;
+}
+
+#search-area fieldset{
+    width: 590px;
+    height: 60px; 
+    display: inline-block;
+    border: 2px solid #19ce60;
+    padding: 0;
+    vertical-align: middle;
+    position: relative;
+}
+#search-area fieldset input{
+    width: 474px;
+    height: 50px ;
+    border: none;
+    padding: 13px 15px;
+    margin: 1px;
+    outline: none;
+}
+#search-area fieldset button{
+   width: 56px;
+   height: 56px; 
+   border: none;
+   padding: 0;
+   background-color: #19ce60;
+   position: absolute;
+   right: 0;
+}
+#search-icon{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(./sp_main.png) -420px 0;
+    background-size: 457px 434px;
+    position: relative;
+}
+
+/* #fixed{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 50px;
+} */
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-list li{
+    float: left;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: -.3px;
+    color: #03c75a;;
+    font-family: -apple-system, BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+    margin-left: 12px;
+    position: relative;
+}
+#mail{
+    margin-left: 0;
+}
+#icon-mail{
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background: url(./sp_main.png) -420px -73px no-repeat;
+    background-size: 457px 434px;
+    position: relative; 
+    top: 2px;
+    left: 2px;
+}
+#icon-shop{
+    display: inline-block;
+    background: url(./sp_main.png) -154px -389px no-repeat;
+    width: 24px;
+    height: 20px;
+    background-size: 457px 434px;
+    position: relative;
+    top: 4px;
+}
+
+#icon-live{
+    display: inline-block;
+    width: 54px;
+    height: 20px;
+    background: url(./sp_main.png) -202px -299px no-repeat;
+    background-size: 457px 434px;
+    position: relative;
+    top: 4px;
+}
+
+#icon-tv{
+    display: inline-block;
+    width: 12px;
+    height: 14px;
+    background: url(./sp_main.png) -444px -49px no-repeat;
+    background-size: 457px 434px; 
+    margin: 9px 0 0 0;
+}
+
+#tv{
+    position: relative;
+    left: -3px;
+    bottom: 1px;
+
+}
+
+nav .center-align{
+    height: 52px;
+    position: relative;
+    padding: 11px 270px 11px 0;
+}
+
+
+
+
+.service-area{
+    float: right;
+    position: relative;
+    top: 10px;
+    line-height: 16px;
+}
+.link-set{
+    display: inline-block;
+    font-size: 11px;
+    color: #404040;
+    position: relative;
+    float: left;
+}
+.icon-linkset{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background: url(./sp_main.png) -308px -345px no-repeat;
+    background-size: 457px 434px;
+    margin: -3px 0 0 3px;
+    vertical-align: top;
+    position: relative;
+    left: -5px
+}
+.text-linkset{
+    vertical-align: top;
+}
+
+.bar {
+    float: left;
+    width: 1px;
+    height: 10px;
+    margin: 3px 7px 3px 2px;
+    background-color: #c1c3c5;
+}
+
+#icon-jr{
+    display: inline-block;
+    width: 60px;
+    height: 10px;
+    background: url(./sp_main.png) -262px -330px no-repeat;
+    background-size: 457px 434px;
+    vertical-align: top;
+    margin: 3px;    
+}
+#icon-happy{
+    display: inline-block;
+    width: 34px;
+    height: 11px;
+    background: url(./sp_main.png) -369px -299px no-repeat;
+    background-size: 457px 434px;
+    vertical-align: top;
+    margin: 3px 3px 2px;
+
+}
